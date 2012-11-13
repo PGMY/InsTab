@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E63C691B1651CEDC00539906 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63C691A1651CEDC00539906 /* UIKit.framework */; };
+		E63C691D1651CEDC00539906 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63C691C1651CEDC00539906 /* Foundation.framework */; };
+		E63C691F1651CEDC00539906 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63C691E1651CEDC00539906 /* CoreGraphics.framework */; };
+		E63C69251651CEDC00539906 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E63C69231651CEDC00539906 /* InfoPlist.strings */; };
+		E63C69271651CEDC00539906 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E63C69261651CEDC00539906 /* main.m */; };
+		E63C692B1651CEDC00539906 /* MYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E63C692A1651CEDC00539906 /* MYAppDelegate.m */; };
+		E63C692D1651CEDC00539906 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E63C692C1651CEDC00539906 /* Default.png */; };
+		E63C692F1651CEDC00539906 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E63C692E1651CEDC00539906 /* Default@2x.png */; };
+		E63C69311651CEDC00539906 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E63C69301651CEDC00539906 /* Default-568h@2x.png */; };
+		E63C69391651CEDC00539906 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63C69381651CEDC00539906 /* SenTestingKit.framework */; };
+		E63C693A1651CEDC00539906 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63C691A1651CEDC00539906 /* UIKit.framework */; };
+		E63C693B1651CEDC00539906 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63C691C1651CEDC00539906 /* Foundation.framework */; };
+		E63C69431651CEDC00539906 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E63C69411651CEDC00539906 /* InfoPlist.strings */; };
+		E63C69461651CEDC00539906 /* InsTabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E63C69451651CEDC00539906 /* InsTabTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E63C693C1651CEDC00539906 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E63C690D1651CEDC00539906 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E63C69151651CEDC00539906;
+			remoteInfo = InsTab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E63C69161651CEDC00539906 /* InsTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InsTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E63C691A1651CEDC00539906 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E63C691C1651CEDC00539906 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E63C691E1651CEDC00539906 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E63C69221651CEDC00539906 /* InsTab-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InsTab-Info.plist"; sourceTree = "<group>"; };
+		E63C69241651CEDC00539906 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E63C69261651CEDC00539906 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E63C69281651CEDC00539906 /* InsTab-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InsTab-Prefix.pch"; sourceTree = "<group>"; };
+		E63C69291651CEDC00539906 /* MYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYAppDelegate.h; sourceTree = "<group>"; };
+		E63C692A1651CEDC00539906 /* MYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYAppDelegate.m; sourceTree = "<group>"; };
+		E63C692C1651CEDC00539906 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E63C692E1651CEDC00539906 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E63C69301651CEDC00539906 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E63C69371651CEDC00539906 /* InsTabTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsTabTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E63C69381651CEDC00539906 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E63C69401651CEDC00539906 /* InsTabTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InsTabTests-Info.plist"; sourceTree = "<group>"; };
+		E63C69421651CEDC00539906 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E63C69441651CEDC00539906 /* InsTabTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsTabTests.h; sourceTree = "<group>"; };
+		E63C69451651CEDC00539906 /* InsTabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsTabTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E63C69131651CEDC00539906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63C691B1651CEDC00539906 /* UIKit.framework in Frameworks */,
+				E63C691D1651CEDC00539906 /* Foundation.framework in Frameworks */,
+				E63C691F1651CEDC00539906 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E63C69331651CEDC00539906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63C69391651CEDC00539906 /* SenTestingKit.framework in Frameworks */,
+				E63C693A1651CEDC00539906 /* UIKit.framework in Frameworks */,
+				E63C693B1651CEDC00539906 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E63C690B1651CEDC00539906 = {
+			isa = PBXGroup;
+			children = (
+				E63C69201651CEDC00539906 /* InsTab */,
+				E63C693E1651CEDC00539906 /* InsTabTests */,
+				E63C69191651CEDC00539906 /* Frameworks */,
+				E63C69171651CEDC00539906 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E63C69171651CEDC00539906 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E63C69161651CEDC00539906 /* InsTab.app */,
+				E63C69371651CEDC00539906 /* InsTabTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E63C69191651CEDC00539906 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E63C691A1651CEDC00539906 /* UIKit.framework */,
+				E63C691C1651CEDC00539906 /* Foundation.framework */,
+				E63C691E1651CEDC00539906 /* CoreGraphics.framework */,
+				E63C69381651CEDC00539906 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E63C69201651CEDC00539906 /* InsTab */ = {
+			isa = PBXGroup;
+			children = (
+				E63C69291651CEDC00539906 /* MYAppDelegate.h */,
+				E63C692A1651CEDC00539906 /* MYAppDelegate.m */,
+				E63C69211651CEDC00539906 /* Supporting Files */,
+			);
+			path = InsTab;
+			sourceTree = "<group>";
+		};
+		E63C69211651CEDC00539906 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E63C69221651CEDC00539906 /* InsTab-Info.plist */,
+				E63C69231651CEDC00539906 /* InfoPlist.strings */,
+				E63C69261651CEDC00539906 /* main.m */,
+				E63C69281651CEDC00539906 /* InsTab-Prefix.pch */,
+				E63C692C1651CEDC00539906 /* Default.png */,
+				E63C692E1651CEDC00539906 /* Default@2x.png */,
+				E63C69301651CEDC00539906 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E63C693E1651CEDC00539906 /* InsTabTests */ = {
+			isa = PBXGroup;
+			children = (
+				E63C69441651CEDC00539906 /* InsTabTests.h */,
+				E63C69451651CEDC00539906 /* InsTabTests.m */,
+				E63C693F1651CEDC00539906 /* Supporting Files */,
+			);
+			path = InsTabTests;
+			sourceTree = "<group>";
+		};
+		E63C693F1651CEDC00539906 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E63C69401651CEDC00539906 /* InsTabTests-Info.plist */,
+				E63C69411651CEDC00539906 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E63C69151651CEDC00539906 /* InsTab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E63C69491651CEDC00539906 /* Build configuration list for PBXNativeTarget "InsTab" */;
+			buildPhases = (
+				E63C69121651CEDC00539906 /* Sources */,
+				E63C69131651CEDC00539906 /* Frameworks */,
+				E63C69141651CEDC00539906 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InsTab;
+			productName = InsTab;
+			productReference = E63C69161651CEDC00539906 /* InsTab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E63C69361651CEDC00539906 /* InsTabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E63C694C1651CEDC00539906 /* Build configuration list for PBXNativeTarget "InsTabTests" */;
+			buildPhases = (
+				E63C69321651CEDC00539906 /* Sources */,
+				E63C69331651CEDC00539906 /* Frameworks */,
+				E63C69341651CEDC00539906 /* Resources */,
+				E63C69351651CEDC00539906 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E63C693D1651CEDC00539906 /* PBXTargetDependency */,
+			);
+			name = InsTabTests;
+			productName = InsTabTests;
+			productReference = E63C69371651CEDC00539906 /* InsTabTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E63C690D1651CEDC00539906 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MY;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = M.Y.;
+			};
+			buildConfigurationList = E63C69101651CEDC00539906 /* Build configuration list for PBXProject "InsTab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E63C690B1651CEDC00539906;
+			productRefGroup = E63C69171651CEDC00539906 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E63C69151651CEDC00539906 /* InsTab */,
+				E63C69361651CEDC00539906 /* InsTabTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E63C69141651CEDC00539906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63C69251651CEDC00539906 /* InfoPlist.strings in Resources */,
+				E63C692D1651CEDC00539906 /* Default.png in Resources */,
+				E63C692F1651CEDC00539906 /* Default@2x.png in Resources */,
+				E63C69311651CEDC00539906 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E63C69341651CEDC00539906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63C69431651CEDC00539906 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E63C69351651CEDC00539906 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E63C69121651CEDC00539906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63C69271651CEDC00539906 /* main.m in Sources */,
+				E63C692B1651CEDC00539906 /* MYAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E63C69321651CEDC00539906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63C69461651CEDC00539906 /* InsTabTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E63C693D1651CEDC00539906 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E63C69151651CEDC00539906 /* InsTab */;
+			targetProxy = E63C693C1651CEDC00539906 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E63C69231651CEDC00539906 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E63C69241651CEDC00539906 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E63C69411651CEDC00539906 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E63C69421651CEDC00539906 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E63C69471651CEDC00539906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E63C69481651CEDC00539906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E63C694A1651CEDC00539906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InsTab/InsTab-Prefix.pch";
+				INFOPLIST_FILE = "InsTab/InsTab-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E63C694B1651CEDC00539906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InsTab/InsTab-Prefix.pch";
+				INFOPLIST_FILE = "InsTab/InsTab-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E63C694D1651CEDC00539906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/InsTab.app/InsTab";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InsTab/InsTab-Prefix.pch";
+				INFOPLIST_FILE = "InsTabTests/InsTabTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E63C694E1651CEDC00539906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/InsTab.app/InsTab";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InsTab/InsTab-Prefix.pch";
+				INFOPLIST_FILE = "InsTabTests/InsTabTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E63C69101651CEDC00539906 /* Build configuration list for PBXProject "InsTab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E63C69471651CEDC00539906 /* Debug */,
+				E63C69481651CEDC00539906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E63C69491651CEDC00539906 /* Build configuration list for PBXNativeTarget "InsTab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E63C694A1651CEDC00539906 /* Debug */,
+				E63C694B1651CEDC00539906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E63C694C1651CEDC00539906 /* Build configuration list for PBXNativeTarget "InsTabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E63C694D1651CEDC00539906 /* Debug */,
+				E63C694E1651CEDC00539906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E63C690D1651CEDC00539906 /* Project object */;
+}
