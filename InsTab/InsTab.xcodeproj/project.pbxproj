@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E6252CB81651D03000EED36C /* MYRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6252CB71651D03000EED36C /* MYRootViewController.m */; };
 		E63C691B1651CEDC00539906 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63C691A1651CEDC00539906 /* UIKit.framework */; };
 		E63C691D1651CEDC00539906 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63C691C1651CEDC00539906 /* Foundation.framework */; };
 		E63C691F1651CEDC00539906 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63C691E1651CEDC00539906 /* CoreGraphics.framework */; };
@@ -21,6 +22,12 @@
 		E63C693B1651CEDC00539906 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63C691C1651CEDC00539906 /* Foundation.framework */; };
 		E63C69431651CEDC00539906 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E63C69411651CEDC00539906 /* InfoPlist.strings */; };
 		E63C69461651CEDC00539906 /* InsTabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E63C69451651CEDC00539906 /* InsTabTests.m */; };
+		E656D2A216532370009BC8BF /* MYCaptureView.m in Sources */ = {isa = PBXBuildFile; fileRef = E656D2A116532370009BC8BF /* MYCaptureView.m */; };
+		E656D2A9165323C2009BC8BF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E656D2A4165323C2009BC8BF /* AVFoundation.framework */; };
+		E656D2AA165323C2009BC8BF /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E656D2A5165323C2009BC8BF /* CoreMedia.framework */; };
+		E656D2AB165323C2009BC8BF /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E656D2A6165323C2009BC8BF /* CoreVideo.framework */; };
+		E656D2AC165323C2009BC8BF /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E656D2A7165323C2009BC8BF /* GLKit.framework */; };
+		E656D2AD165323C2009BC8BF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E656D2A8165323C2009BC8BF /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E6252CB61651D03000EED36C /* MYRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYRootViewController.h; sourceTree = "<group>"; };
+		E6252CB71651D03000EED36C /* MYRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYRootViewController.m; sourceTree = "<group>"; };
 		E63C69161651CEDC00539906 /* InsTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InsTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E63C691A1651CEDC00539906 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E63C691C1651CEDC00539906 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,6 +62,13 @@
 		E63C69421651CEDC00539906 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E63C69441651CEDC00539906 /* InsTabTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsTabTests.h; sourceTree = "<group>"; };
 		E63C69451651CEDC00539906 /* InsTabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsTabTests.m; sourceTree = "<group>"; };
+		E656D2A016532370009BC8BF /* MYCaptureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYCaptureView.h; sourceTree = "<group>"; };
+		E656D2A116532370009BC8BF /* MYCaptureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYCaptureView.m; sourceTree = "<group>"; };
+		E656D2A4165323C2009BC8BF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E656D2A5165323C2009BC8BF /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		E656D2A6165323C2009BC8BF /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		E656D2A7165323C2009BC8BF /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		E656D2A8165323C2009BC8BF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E656D2A9165323C2009BC8BF /* AVFoundation.framework in Frameworks */,
+				E656D2AA165323C2009BC8BF /* CoreMedia.framework in Frameworks */,
+				E656D2AB165323C2009BC8BF /* CoreVideo.framework in Frameworks */,
+				E656D2AC165323C2009BC8BF /* GLKit.framework in Frameworks */,
+				E656D2AD165323C2009BC8BF /* QuartzCore.framework in Frameworks */,
 				E63C691B1651CEDC00539906 /* UIKit.framework in Frameworks */,
 				E63C691D1651CEDC00539906 /* Foundation.framework in Frameworks */,
 				E63C691F1651CEDC00539906 /* CoreGraphics.framework in Frameworks */,
@@ -101,6 +122,11 @@
 		E63C69191651CEDC00539906 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E656D2A4165323C2009BC8BF /* AVFoundation.framework */,
+				E656D2A5165323C2009BC8BF /* CoreMedia.framework */,
+				E656D2A6165323C2009BC8BF /* CoreVideo.framework */,
+				E656D2A7165323C2009BC8BF /* GLKit.framework */,
+				E656D2A8165323C2009BC8BF /* QuartzCore.framework */,
 				E63C691A1651CEDC00539906 /* UIKit.framework */,
 				E63C691C1651CEDC00539906 /* Foundation.framework */,
 				E63C691E1651CEDC00539906 /* CoreGraphics.framework */,
@@ -114,6 +140,10 @@
 			children = (
 				E63C69291651CEDC00539906 /* MYAppDelegate.h */,
 				E63C692A1651CEDC00539906 /* MYAppDelegate.m */,
+				E6252CB61651D03000EED36C /* MYRootViewController.h */,
+				E6252CB71651D03000EED36C /* MYRootViewController.m */,
+				E656D2A016532370009BC8BF /* MYCaptureView.h */,
+				E656D2A116532370009BC8BF /* MYCaptureView.m */,
 				E63C69211651CEDC00539906 /* Supporting Files */,
 			);
 			path = InsTab;
@@ -264,6 +294,8 @@
 			files = (
 				E63C69271651CEDC00539906 /* main.m in Sources */,
 				E63C692B1651CEDC00539906 /* MYAppDelegate.m in Sources */,
+				E6252CB81651D03000EED36C /* MYRootViewController.m in Sources */,
+				E656D2A216532370009BC8BF /* MYCaptureView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +462,7 @@
 				E63C694B1651CEDC00539906 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E63C694C1651CEDC00539906 /* Build configuration list for PBXNativeTarget "InsTabTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +471,7 @@
 				E63C694E1651CEDC00539906 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
