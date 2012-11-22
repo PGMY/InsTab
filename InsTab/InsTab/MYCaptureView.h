@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MYCaptureView : UIView
+@interface MYCaptureView : UIView 
 
 @end

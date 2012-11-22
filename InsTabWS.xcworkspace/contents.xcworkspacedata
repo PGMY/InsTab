@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:GL/GL.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:InsTab/InsTab.xcodeproj">
    </FileRef>
    <FileRef
