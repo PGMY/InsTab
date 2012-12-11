@@ -1,12 +1,12 @@
 //
-//  MYViewController.m
-//  GL
+//  MYGLViewController.m
+//  InsTab
 //
-//  Created by YAMAMOTO MIKA on 2012/11/21.
-//  Copyright (c) 2012年 PGMY. All rights reserved.
+//  Created by YAMAMOTO MIKA on 2012/12/11.
+//  Copyright (c) 2012年 M.Y. All rights reserved.
 //
 
-#import "MYViewController.h"
+#import "MYGLViewController.h"
 
 #define BUFFER_OFFSET(i) ((char *)NULL + (i))
 
@@ -27,7 +27,7 @@ enum
     NUM_ATTRIBUTES
 };
 
-GLfloat gCubeVertexData[216] = 
+GLfloat gCubeVertexData[216] =
 {
     // Data layout for each line below is:
     // positionX, positionY, positionZ,     normalX, normalY, normalZ,
@@ -74,7 +74,7 @@ GLfloat gCubeVertexData[216] =
     -0.5f, 0.5f, -0.5f,        0.0f, 0.0f, -1.0f
 };
 
-@interface MYViewController () {
+@interface MYGLViewController () {
     GLuint _program;
     
     GLKMatrix4 _modelViewProjectionMatrix;
@@ -96,7 +96,7 @@ GLfloat gCubeVertexData[216] =
 - (BOOL)validateProgram:(GLuint)prog;
 @end
 
-@implementation MYViewController
+@implementation MYGLViewController
 
 - (void)dealloc
 {
@@ -116,7 +116,7 @@ GLfloat gCubeVertexData[216] =
     [super viewDidLoad];
     
     self.context = [[[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES2] autorelease];
-
+    
     if (!self.context) {
         NSLog(@"Failed to create ES context");
     }
@@ -131,7 +131,7 @@ GLfloat gCubeVertexData[216] =
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-
+    
     if ([self isViewLoaded] && ([[self view] window] == nil)) {
         self.view = nil;
         
@@ -142,7 +142,7 @@ GLfloat gCubeVertexData[216] =
         }
         self.context = nil;
     }
-
+    
     // Dispose of any resources that can be recreated.
 }
 

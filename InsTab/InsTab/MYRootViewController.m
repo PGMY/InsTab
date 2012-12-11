@@ -7,6 +7,7 @@
 //
 
 #import "MYRootViewController.h"
+#import "MYGLViewController.h"
 
 @interface MYRootViewController ()
 
@@ -14,11 +15,22 @@
 
 @implementation MYRootViewController
 
+
+- (void)dealloc
+{
+    [_myGLViewController release];
+    [super dealloc];
+}
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        MYGLViewController *glViewController = [[MYGLViewController alloc] init];
+        [self setMyGLViewController:glViewController];
+        [glViewController release];
+        //[self addChildViewController:self.myGLViewController];
     }
     return self;
 }

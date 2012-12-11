@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class MYGLViewController;
+
 @interface MYRootViewController : UIViewController
+
+@property (strong,nonatomic) MYGLViewController *myGLViewController;
 
 @end

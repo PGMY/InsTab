@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E6035BB61676DCA200DFE0AD /* MYGLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6035BB51676DCA200DFE0AD /* MYGLViewController.m */; };
+		E6035BBB1676DCE600DFE0AD /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = E6035BB91676DCE600DFE0AD /* Shader.fsh */; };
+		E6035BBC1676DCE600DFE0AD /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = E6035BBA1676DCE600DFE0AD /* Shader.vsh */; };
+		E6035BBF1676E0E500DFE0AD /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6035BBE1676E0E500DFE0AD /* OpenGLES.framework */; };
 		E6252CB81651D03000EED36C /* MYRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6252CB71651D03000EED36C /* MYRootViewController.m */; };
 		E63C691B1651CEDC00539906 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63C691A1651CEDC00539906 /* UIKit.framework */; };
 		E63C691D1651CEDC00539906 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63C691C1651CEDC00539906 /* Foundation.framework */; };
@@ -41,6 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E6035BB41676DCA200DFE0AD /* MYGLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYGLViewController.h; sourceTree = "<group>"; };
+		E6035BB51676DCA200DFE0AD /* MYGLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYGLViewController.m; sourceTree = "<group>"; };
+		E6035BB91676DCE600DFE0AD /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+		E6035BBA1676DCE600DFE0AD /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
+		E6035BBE1676E0E500DFE0AD /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		E6252CB61651D03000EED36C /* MYRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYRootViewController.h; sourceTree = "<group>"; };
 		E6252CB71651D03000EED36C /* MYRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYRootViewController.m; sourceTree = "<group>"; };
 		E63C69161651CEDC00539906 /* InsTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InsTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,10 +85,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6035BBF1676E0E500DFE0AD /* OpenGLES.framework in Frameworks */,
+				E656D2AC165323C2009BC8BF /* GLKit.framework in Frameworks */,
 				E656D2A9165323C2009BC8BF /* AVFoundation.framework in Frameworks */,
 				E656D2AA165323C2009BC8BF /* CoreMedia.framework in Frameworks */,
 				E656D2AB165323C2009BC8BF /* CoreVideo.framework in Frameworks */,
-				E656D2AC165323C2009BC8BF /* GLKit.framework in Frameworks */,
 				E656D2AD165323C2009BC8BF /* QuartzCore.framework in Frameworks */,
 				E63C691B1651CEDC00539906 /* UIKit.framework in Frameworks */,
 				E63C691D1651CEDC00539906 /* Foundation.framework in Frameworks */,
@@ -100,6 +110,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E6035BB81676DCE600DFE0AD /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				E6035BB91676DCE600DFE0AD /* Shader.fsh */,
+				E6035BBA1676DCE600DFE0AD /* Shader.vsh */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
 		E63C690B1651CEDC00539906 = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +141,7 @@
 		E63C69191651CEDC00539906 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E6035BBE1676E0E500DFE0AD /* OpenGLES.framework */,
 				E656D2A4165323C2009BC8BF /* AVFoundation.framework */,
 				E656D2A5165323C2009BC8BF /* CoreMedia.framework */,
 				E656D2A6165323C2009BC8BF /* CoreVideo.framework */,
@@ -142,6 +162,9 @@
 				E63C692A1651CEDC00539906 /* MYAppDelegate.m */,
 				E6252CB61651D03000EED36C /* MYRootViewController.h */,
 				E6252CB71651D03000EED36C /* MYRootViewController.m */,
+				E6035BB41676DCA200DFE0AD /* MYGLViewController.h */,
+				E6035BB51676DCA200DFE0AD /* MYGLViewController.m */,
+				E6035BB81676DCE600DFE0AD /* Shaders */,
 				E656D2A016532370009BC8BF /* MYCaptureView.h */,
 				E656D2A116532370009BC8BF /* MYCaptureView.m */,
 				E63C69211651CEDC00539906 /* Supporting Files */,
@@ -255,6 +278,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E63C69251651CEDC00539906 /* InfoPlist.strings in Resources */,
+				E6035BBB1676DCE600DFE0AD /* Shader.fsh in Resources */,
+				E6035BBC1676DCE600DFE0AD /* Shader.vsh in Resources */,
 				E63C692D1651CEDC00539906 /* Default.png in Resources */,
 				E63C692F1651CEDC00539906 /* Default@2x.png in Resources */,
 				E63C69311651CEDC00539906 /* Default-568h@2x.png in Resources */,
@@ -295,6 +320,7 @@
 				E63C69271651CEDC00539906 /* main.m in Sources */,
 				E63C692B1651CEDC00539906 /* MYAppDelegate.m in Sources */,
 				E6252CB81651D03000EED36C /* MYRootViewController.m in Sources */,
+				E6035BB61676DCA200DFE0AD /* MYGLViewController.m in Sources */,
 				E656D2A216532370009BC8BF /* MYCaptureView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,6 +419,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "InsTab/InsTab-Prefix.pch";
 				INFOPLIST_FILE = "InsTab/InsTab-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -404,6 +431,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "InsTab/InsTab-Prefix.pch";
 				INFOPLIST_FILE = "InsTab/InsTab-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
